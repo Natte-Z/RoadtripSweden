@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------Colors*/
+
+
+/*---------------------------------------------------------------------Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;300;400;700&display=swap');
+
+/*---------------------------------------------------------------------Header*/
+
+.header {
+	margin: 0;
+}
+.logo {
+	background: url("../images/logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25%;
+	margin: 0;
+	padding: 0;
+	width: 27px;
+	min-height: 65px;
+	background-color: #fafafa;
+}
+.title {
+	font-family: 'Comfortaa', sans-serif;
+	color: #49494B;
+	margin: auto;
+	height: auto;
+	text-align: center;
+	width: auto;
+	padding-top: 15px;
+	font-size: 15px;
+
+
+}
+.nav-item {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin-top: 10px;
+	color: #49494B;
+	background-color: #fafafa;
+}
+.navbar-nav {
+	margin: auto;
+}
+.socialIconsHeader {
+	height: 25px;
+	padding-right: 20px;
+}
+.socialIconsHeader i {
+	text-align: center;
+	width: 30px;
+	font-size: 20px;
+	color: #49494B;
+}
+.socialIconsHeader i:hover {
+	color: #bd8c7d;
+}
+
+/*---------------------------------------------------------------------HomePage*/
+
+/*---------------------------------------------------------------------North & South Page*/
+
+/*---------------------------------------------------------------------West & East Coast Page*/
+
+
+/*---------------------------------------------------------------------Contact*/
+.contactForm >h3 >h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+.contactBox {
+    border: 1px;
+    border-color: red;
+}
+
+/*---------------------------------------------------------------------Footer*/
+
+
+/*---------------------------------------------------------------------Fonts*/
+/*---------------------------------------------------------------------Fonts*/
+/*---------------------------------------------------------------------Fonts*/
+/*---------------------------------------------------------------------Fonts*/
+
