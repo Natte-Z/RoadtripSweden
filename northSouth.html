@@ -56,11 +56,51 @@
             </div>
         </div>
     </header>
-    <section> YOUTUBE</section>
-    <section> Lofoten & Picture gallery</section>
-    <section> Maps & Roundtrip description </section>
+    <!----------------------------------------------------------------------------------------------------------YOUTUBE-->
+    <section class="container-fluid"> 
+        <!-- 16:9 4:3 1:1 aspect ratio class="embed-responsive-item" (in iframe class?)-->
+        <div class="embed-responsive embed-responsive-16by9 embed-responsive-4by3 embed-responsive-1by1">
+            <iframe  src="https://www.youtube.com/embed/5kua7Y4v5Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------------Lofoten & Gallery-->
+    <section> 
+        <div>
+            <div>
+            Lofoten
+            </div>
+            <div>
+            gallery
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------------Map & RoundtripDescription-->
+    <section> 
+        <div class="container">
+            <div id="map">
+            
+            </div>
+            <div>
+            ROundtrip
+            </div>
+        </div>
+    </section>
 </body>
 <footer>
-</footer>
+        <div class="container-fluid">
+            <ul>
+                <span class="footer-copyright text-center py-3">© På vägen, 2020. We love roads!</span>
+                <span>På Vägen</span>
+                <span>
+                    <a href="https://www.facebook.com/pg/amazonsthlm/posts/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/amazonfotohudvard/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </span>
+            </ul>
+        </div>
+               
+    </footer>
 
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcbgqTvEhRg9HWXmES4w45IJjRfoRg5s8&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 </html>
