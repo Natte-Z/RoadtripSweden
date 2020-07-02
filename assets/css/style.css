@@ -29,8 +29,6 @@
 	width: auto;
 	padding-top: 15px;
 	font-size: 15px;
-
-
 }
 .nav-item {
 	font-family: 'Montserrat', sans-serif;
@@ -61,6 +59,21 @@
 
 /*---------------------------------------------------------------------North & South Page*/
 
+youTubeWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.youTubeWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div#map {min-height: 360px;}
+
 /*---------------------------------------------------------------------West & East Coast Page*/
 
 
@@ -69,12 +82,29 @@
 	font-family: 'Montserrat', sans-serif;
 }
 .contactBox {
-    border: 1px;
-    border-color: red;
+
+    border: 1px red;
+    padding: 50px;
 }
 
 /*---------------------------------------------------------------------Footer*/
-
+.footer {
+    flex: space-between;
+}
+.socialIconsFooter {
+	height: 25px;
+	padding-right: 20px;
+    flex: flex-end;
+}
+.socialIconsFooter i {
+	text-align: center;
+	width: 30px;
+	font-size: 20px;
+	color: #49494B;
+}
+.socialIconsFooter i:hover {
+	color: #bd8c7d;
+}
 
 /*---------------------------------------------------------------------Fonts*/
 /*---------------------------------------------------------------------Fonts*/

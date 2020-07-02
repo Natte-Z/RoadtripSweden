@@ -39,7 +39,7 @@
                                 <a class="nav-link" href="northSouth.html">North & South<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">East & West Coast</a>
+                                <a class="nav-link" href="westEast.html">East & West Coast</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -59,20 +59,56 @@
     <!----------------------------------------------------------------------------------------------------------YOUTUBE-->
     <section class="container-fluid"> 
         <!-- 16:9 4:3 1:1 aspect ratio class="embed-responsive-item" (in iframe class?)-->
-        <div class="embed-responsive embed-responsive-16by9 embed-responsive-4by3 embed-responsive-1by1">
-            <iframe  src="https://www.youtube.com/embed/5kua7Y4v5Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="youTubeWrapper">
+            <iframe width="560" height="349" src="https://www.youtube.com/embed/5kua7Y4v5Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
     <!----------------------------------------------------------------------------------------------------------Lofoten & Gallery-->
-    <section> 
-        <div>
-            <div>
-            Lofoten
+    <section>  
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3>Lofoten is known for excellent fishing, nature attractions such as the northern lights and the midnight sun, and small villages off the beaten track. Kayak between the islands, go fishing for the catch of your life, or look for sea eagles soaring in the sky.</h3>
+                    <p>The Lofoten Islands are draped across the turbulent waters of the Norwegian Sea, far above the Arctic Circle. This rare wilderness outpost offers an untrammelled landscape of majestic mountains, deep fjords, squawking seabird colonies and long, surf-swept beaches.</p>
+                    <p>Lofoten is in the process of being certified as a Sustainable Destination, a seal of approval given to destinations that work systematically to reduce the negative impact of tourism. In addition to providing visitors with enjoyable experiences, Lofoten wishes to preserve the local nature, culture and environment, strengthen social values, and be economically viable. The municipality and the travel industry cooperate closely to assure that the destination is a great place both to live in and to visit.</p>
+                </div>
+                <div class="col-6">
+                    <div id="mdb-lightbox-ui"></div>
+                        <div class="mdb-lightbox no-margin">
+                        <figure class="col-md-2">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
+                            <img alt="picture" src="assets/pictures/lofoten1.jpg" class="img-fluid">
+                            </a>
+                        </figure>
+                        <figure class="col-md-2">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
+                            <img alt="picture" src="assets/pictures/lofoten2.jpg" class="img-fluid" />
+                            </a>
+                        </figure>
+                        <figure class="col-md-2">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
+                            <img alt="picture" src="assets/pictures/lofoten3.jpg" class="img-fluid" />
+                            </a>
+                        </figure>
+                        <figure class="col-md-2">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" data-size="1600x1067">
+                            <img alt="picture" src="assets/pictures/lofoten4.jpg" class="img-fluid" />
+                            </a>
+                        </figure>
+                        <figure class="col-md-2">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" data-size="1600x1067">
+                            <img alt="picture" src="assets/pictures/lofoten5.jpg" class="img-fluid" />
+                            </a>
+                        </figure>
+                        <figure class="col-md-2">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
+                            <img alt="picture" src="hassets/pictures/lofoten6.jpg" class="img-fluid" />
+                            </a>
+                        </figure>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-            gallery
-            </div>
-        </div>
     </section>
     <!----------------------------------------------------------------------------------------------------------Map & RoundtripDescription-->
     <section> 
@@ -91,7 +127,7 @@
             <ul>
                 <span class="footer-copyright text-center py-3">© På vägen, 2020. We love roads!</span>
                 <span>På Vägen</span>
-                <span>
+                <span class="icons">
                     <a href="https://www.facebook.com/pg/amazonsthlm/posts/" target="_blank"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/amazonfotohudvard/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </span>
