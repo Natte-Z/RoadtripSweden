@@ -74,7 +74,7 @@ body, html {
     font-weight: bold;
     font-size: 400px;
 }
-.indexButton {
+.button {
     font-family: 'Montserrat', sans-serif;
     background-color: #f9f8fd;
     border: 2px solid #4CAF50;
@@ -88,14 +88,25 @@ body, html {
     cursor: pointer;
     vertical-align: baseline;
 }
+
 .button:hover {background-color: #3e8e41}
 
 .button:active {
-  background-color: #3d3d3f;
-  box-shadow: 0 5px #f6f5f3;
-  transform: translateY(4px);
-/*---------------------------------------------------------------------HomePageOverview*/
+    background-color: #3d3d3f;
+    box-shadow: 0 5px #f6f5f3;
+    transform: translateY(4px);
 
+.contactContent {
+    justify-content: flex-center;
+}
+
+.phoneImage {
+    background-image: url("../pictures/phone.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 100%;
+    width: 100%;
+}
 
 /*---------------------------------------------------------------------North & South Page*/
 
