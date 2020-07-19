@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 /*---------------------------------------------------------------------Colors*/
 
 
@@ -9,20 +13,9 @@
 .header {
 	margin: 0;
 }
-.logo {
-	background: url("../images/logo.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 25%;
-	margin: 0;
-	padding: 0;
-	width: 27px;
-	min-height: 65px;
-	background-color: #fafafa;
-}
 .title {
 	font-family: 'Comfortaa', sans-serif;
-	color: #49494B;
+	color: #3d3d3f;
 	margin: auto;
 	height: auto;
 	text-align: center;
@@ -31,12 +24,12 @@
 	font-size: 15px;
 }
 .nav-item {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 15px;
 	padding: 0px;
 	margin-top: 10px;
-	color: #49494B;
-	background-color: #fafafa;
+	color: #3d3d3f;
+	background-color: #f6f5f3;
 }
 .navbar-nav {
 	margin: auto;
@@ -49,17 +42,64 @@
 	text-align: center;
 	width: 30px;
 	font-size: 20px;
-	color: #49494B;
+	color: #3d3d3f;
 }
 .socialIconsHeader i:hover {
-	color: #bd8c7d;
+	color: #7dce94;
 }
 
 /*---------------------------------------------------------------------HomePage*/
+.homeImage{
+    background-image: url("../pictures/homeImage.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 100%;
+    width: 100%;	
+}
+.homeText {
+	text-align: center;
+    margin: auto;
+	margin-bottom: 40px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #fafafa;
+    font-size: 40px;
+}
+.overviewTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.overviewText{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    font-size: 400px;
+}
+.indexButton {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f8fd;
+    border: 2px solid #4CAF50;
+    color: #3d3d3f;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px 40px 0px;
+    cursor: pointer;
+    vertical-align: baseline;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3d3d3f;
+  box-shadow: 0 5px #f6f5f3;
+  transform: translateY(4px);
+/*---------------------------------------------------------------------HomePageOverview*/
+
 
 /*---------------------------------------------------------------------North & South Page*/
 
-youTubeWrapper {
+.youTubeWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
@@ -81,8 +121,8 @@ div#map {min-height: 360px;}
 .contactForm >h3 >h6 {
 	font-family: 'Montserrat', sans-serif;
 }
-.contactBox {
 
+.contactForm {
     border: 1px red;
     padding: 50px;
 }

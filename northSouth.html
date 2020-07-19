@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet"> <link rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>North & South</title>
 </head>
@@ -57,9 +57,8 @@
         </div>
     </header>
     <!----------------------------------------------------------------------------------------------------------YOUTUBE-->
-    <section class="container-fluid"> 
-        <!-- 16:9 4:3 1:1 aspect ratio class="embed-responsive-item" (in iframe class?)-->
-        <div class="youTubeWrapper">
+    <section> 
+        <div class="youTubeWrapper container-fluid">
             <iframe width="560" height="349" src="https://www.youtube.com/embed/5kua7Y4v5Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
@@ -102,7 +101,7 @@
                         </figure>
                         <figure class="col-md-2">
                             <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
-                            <img alt="picture" src="hassets/pictures/lofoten6.jpg" class="img-fluid" />
+                            <img alt="picture" src="assets/pictures/lofoten6.jpg" class="img-fluid" />
                             </a>
                         </figure>
                         </div>
@@ -113,15 +112,20 @@
     <!----------------------------------------------------------------------------------------------------------Map & RoundtripDescription-->
     <section> 
         <div class="container">
-            <div id="map">
-            
-            </div>
-            <div>
-            ROundtrip
+            <div class="row">
+                <div class="col-6">
+                    <div id="map"></div>
+                </div>
+                
+                <div class="col-6">
+                    <h5>ROUNDTRIP</h5>
+                    <h3>Stockholm -  Umeå - Luleå - Abisko - Narvik - Lofoten - Jokkmokk - Östersund</h3>
+                </div>
             </div>
         </div>
     </section>
-</body>
+
+    <!----------------------------------------------------------------------------------------------------------FOOTER-->
 <footer>
         <div class="container-fluid">
             <ul>
@@ -135,8 +139,9 @@
         </div>
                
     </footer>
-
+</body>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcbgqTvEhRg9HWXmES4w45IJjRfoRg5s8&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
+    <script src="assets/js/gallery.js"></script>
 </html>
