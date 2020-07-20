@@ -6,7 +6,8 @@ body, html {
 
 
 /*---------------------------------------------------------------------Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
+
 
 /*---------------------------------------------------------------------Header*/
 
@@ -29,7 +30,7 @@ body, html {
 	padding: 0px;
 	margin-top: 10px;
 	color: #3d3d3f;
-	background-color: #f6f5f3;
+	background-color: #white;
 }
 .navbar-nav {
 	margin: auto;
@@ -39,7 +40,7 @@ body, html {
 	padding-right: 20px;
 }
 .socialIconsHeader i {
-	text-align: center;
+	text-align: end;
 	width: 30px;
 	font-size: 20px;
 	color: #3d3d3f;
@@ -63,16 +64,26 @@ body, html {
 	margin-bottom: 40px;
     font-family: 'Comfortaa', sans-serif;
     color: #fafafa;
-    font-size: 40px;
+    font-size: 75px;
 }
-.overviewTitle{
+.indexText {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 45px 45px;
+    color: #3d3d3f;
+}
+.overviewTitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 30px;
+    color: #3d3d3f;
 }
 .overviewText{
     font-family: 'Comfortaa', sans-serif;
-    font-weight: bold;
-    font-size: 400px;
+    font-weight: none;
+    font-size: 15px;
+    color: #3d3d3f;
 }
 .button {
     font-family: 'Montserrat', sans-serif;
@@ -84,22 +95,29 @@ body, html {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    margin: 4px 2px 40px 0px;
+    margin: 4px 2px 60px 0px;
     cursor: pointer;
     vertical-align: baseline;
 }
+.buttonContact {
+    padding: 15px;
+}
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: #4CAF50}
 
 .button:active {
     background-color: #3d3d3f;
     box-shadow: 0 5px #f6f5f3;
     transform: translateY(4px);
 
-.contactContent {
-    justify-content: flex-center;
+.contactInfo {
+    background-color: #f6f5f3;
+    
 }
 
+.contactContent{
+    margin: 100px;
+}
 .phoneImage {
     background-image: url("../pictures/phone.jpg");
 	background-repeat: no-repeat;
