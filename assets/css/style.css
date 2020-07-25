@@ -2,9 +2,6 @@ body, html {
   height: 100%;
 }
 
-/*---------------------------------------------------------------------Colors*/
-
-
 /*---------------------------------------------------------------------Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
 
@@ -30,7 +27,7 @@ body, html {
 	padding: 0px;
 	margin-top: 10px;
 	color: #3d3d3f;
-	background-color: #white;
+	background-color: #f9f8fd;
 }
 .navbar-nav {
 	margin: auto;
@@ -63,7 +60,7 @@ body, html {
     margin: auto;
 	margin-bottom: 40px;
     font-family: 'Comfortaa', sans-serif;
-    color: #fafafa;
+    color: #f9f8fd;
     font-size: 75px;
 }
 .indexText {
@@ -81,7 +78,6 @@ body, html {
 }
 .overviewText{
     font-family: 'Comfortaa', sans-serif;
-    font-weight: none;
     font-size: 15px;
     color: #3d3d3f;
 }
@@ -101,33 +97,41 @@ body, html {
 }
 .buttonContact {
     padding: 15px;
+    color: #3d3d3f;
+    text-align: center;
 }
-
 .button:hover {background-color: #4CAF50}
-
 .button:active {
     background-color: #3d3d3f;
     box-shadow: 0 5px #f6f5f3;
     transform: translateY(4px);
-
+}
 .contactInfo {
     background-color: #f6f5f3;
-    
+    margin: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
-
 .contactContent{
-    margin: 100px;
+    padding: 50px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    color: #3d3d3f;
+    text-align: center;
+    margin-top: 20px;
+}
+.phoneImageWrapper {
+    width: 100%;
+    height: auto;
 }
 .phoneImage {
     background-image: url("../pictures/phone.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
     height: 100%;
-    width: 100%;
+    background-size: contain;
 }
-
 /*---------------------------------------------------------------------North & South Page*/
-
 .youTubeWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -140,6 +144,31 @@ body, html {
   width: 100%;
   height: 100%;
 }
+.lofotenTitle {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+	font-size: 30px;
+	color: #7dce94;
+    margin-top: 30px;
+}
+.lofotenText {
+    font-family: 'Comfortaa', sans-serif;
+	font-size: 15px;
+	color: #49494B;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
 div#map {min-height: 360px;}
 
@@ -149,6 +178,7 @@ div#map {min-height: 360px;}
 /*---------------------------------------------------------------------Contact*/
 .contactForm >h3 >h6 {
 	font-family: 'Montserrat', sans-serif;
+    
 }
 
 .contactForm {
@@ -158,25 +188,19 @@ div#map {min-height: 360px;}
 
 /*---------------------------------------------------------------------Footer*/
 .footer {
-    flex: space-between;
+   display: flex;
+   justify-content: space-between;
+   font-size: 15px;
 }
-.socialIconsFooter {
-	height: 25px;
-	padding-right: 20px;
-    flex: flex-end;
+.footerTitle{
+    font-family: 'Comfortaa', sans-serif;
+	color: #49494B;
+    font-size: 18px;
 }
-.socialIconsFooter i {
-	text-align: center;
-	width: 30px;
-	font-size: 20px;
+.footerText{
+    font-family: 'Montserrat', sans-serif;
 	color: #49494B;
 }
 .socialIconsFooter i:hover {
-	color: #bd8c7d;
+	color: #7dce94;
 }
-
-/*---------------------------------------------------------------------Fonts*/
-/*---------------------------------------------------------------------Fonts*/
-/*---------------------------------------------------------------------Fonts*/
-/*---------------------------------------------------------------------Fonts*/
-
