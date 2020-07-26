@@ -27,7 +27,6 @@ body, html {
 	padding: 0px;
 	margin-top: 10px;
 	color: #3d3d3f;
-	background-color: #f9f8fd;
 }
 .navbar-nav {
 	margin: auto;
@@ -62,6 +61,7 @@ body, html {
     font-family: 'Comfortaa', sans-serif;
     color: #f9f8fd;
     font-size: 75px;
+    padding-top: 280px;
 }
 .indexText {
     font-family: 'Comfortaa', sans-serif;
@@ -107,7 +107,7 @@ body, html {
     transform: translateY(4px);
 }
 .contactInfo {
-    background-color: #f6f5f3;
+    background-color: #f9f8fd;
     margin: 30px;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -156,18 +156,13 @@ body, html {
 	font-size: 15px;
 	color: #49494B;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.lofotenImages {
+    width: 100%;
+    height: auto;
 }
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+
+.hrNorth {
+    margin: 100px;
 }
 
 div#map {min-height: 360px;}
@@ -178,11 +173,9 @@ div#map {min-height: 360px;}
 /*---------------------------------------------------------------------Contact*/
 .contactForm >h3 >h6 {
 	font-family: 'Montserrat', sans-serif;
-    
 }
 
 .contactForm {
-    border: 1px red;
     padding: 50px;
 }
 
