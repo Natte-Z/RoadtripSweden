@@ -171,18 +171,54 @@ div#map {min-height: 360px;}
 
 
 /*---------------------------------------------------------------------Contact*/
-.contactForm >h3 >h6 {
+.contactForm {
 	font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    color: #49494B;
+    
+}
+.contactHeading {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #7dce94;
+    margin-top: 50px;
+}
+.contactText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #49494B;
+}
+.contactBoxWrapper{
+    padding: 150px;
+}
+.contactBox {
+    border: solid #49494B 1px;
+    box-sizing: content-box;
+    padding: 60px;
+}
+.contactFormTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #49494B;
+}
+.contactButton {
+    background-color: #7dce94;
+    color: #f9f8fd;
+}
+.form {
+    font-family: 'Comfortaa', sans-serif;
+    color: #49494B;
 }
 
-.contactForm {
-    padding: 50px;
-}
 
 /*---------------------------------------------------------------------Footer*/
 .footer {
    display: flex;
    justify-content: space-between;
+   align-items: flex-end;
    font-size: 15px;
    height: 50px;
    background-color: #f6f5f3;
