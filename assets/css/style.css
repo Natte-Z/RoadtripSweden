@@ -5,25 +5,65 @@ body, html {
 /*---------------------------------------------------------------------Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap');
 
+/*---------------------------------------------------------------------Back to top button*/
+#bButton {
+  display: inline-block;
+  background-color: #7dce94;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#bButton::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#bButton:hover {
+  cursor: pointer;
+  background-color: #f6f5f3;
+}
+#bButton:active {
+  background-color: #f6f5f3;
+}
+#bButton.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 
 /*---------------------------------------------------------------------Header*/
 
 .header {
 	margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f6f5f3;
+    z-index: 3;
 }
 .title {
 	font-family: 'Comfortaa', sans-serif;
 	color: #3d3d3f;
-	margin: auto;
-	height: auto;
 	text-align: center;
 	width: auto;
-	padding-top: 15px;
-	font-size: 15px;
+	font-size: 18px;
 }
 .nav-item {
 	font-family: "Montserrat", sans-serif;
-	font-size: 15px;
+	font-size: 20px;
 	padding: 0px;
 	margin-top: 10px;
 	color: #3d3d3f;
@@ -62,13 +102,15 @@ body, html {
     color: #f9f8fd;
     font-size: 75px;
     padding-top: 280px;
+    font-size: 6vw;
 }
 .indexText {
     font-family: 'Comfortaa', sans-serif;
     font-weight: bold;
     font-size: 45px;
-    margin: 45px 45px;
     color: #3d3d3f;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 .overviewTitle {
     font-family: 'Montserrat', sans-serif;
@@ -99,12 +141,19 @@ body, html {
     padding: 15px;
     color: #3d3d3f;
     text-align: center;
+    text-decoration: none;
 }
-.button:hover {background-color: #4CAF50}
+.button:hover {
+    background-color: #4CAF50;
+    text-decoration: none;
+    color: #f6f5f3;
+    }
 .button:active {
     background-color: #3d3d3f;
     box-shadow: 0 5px #f6f5f3;
     transform: translateY(4px);
+    text-decoration: none;
+    color: #f6f5f3;
 }
 .contactInfo {
     background-color: #f9f8fd;
@@ -147,7 +196,7 @@ body, html {
 .lofotenTitle {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-	font-size: 30px;
+	font-size: 40px;
 	color: #7dce94;
     margin-top: 30px;
 }
