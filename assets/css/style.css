@@ -131,7 +131,7 @@ body, html {
     height: 100%;
     background-size: contain;
 }
-/*---------------------------------------------------------------------North & South Page*/
+/*---------------------------------------------------------------------Norrland*/
 .youTubeWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -191,7 +191,7 @@ div#map {min-height: 360px;}
     color: #49494B;
 }
 .contactBoxWrapper{
-    padding: 150px;
+    padding: 100px;
 }
 .contactBox {
     border: solid #49494B 1px;
