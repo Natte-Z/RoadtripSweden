@@ -53,26 +53,27 @@ body, html {
     width: 100%;
     background-color: #f6f5f3;
     z-index: 3;
+    
 }
 .title {
 	font-family: 'Comfortaa', sans-serif;
 	color: #3d3d3f;
 	text-align: center;
 	width: auto;
-	font-size: 18px;
+	font-size: 19px;
+    padding-top: 10px;
+    margin: 0px;
 }
 .nav-item {
 	font-family: "Montserrat", sans-serif;
-	font-size: 20px;
+	font-size: 17px;
 	padding: 0px;
-	margin-top: 10px;
 	color: #3d3d3f;
 }
 .navbar-nav {
 	margin: auto;
 }
 .socialIconsHeader {
-	height: 25px;
 	padding-right: 20px;
 }
 .socialIconsHeader i {
@@ -185,6 +186,7 @@ body, html {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+  margin-top: 80px;
 }
 .youTubeWrapper iframe {
   position: absolute;
