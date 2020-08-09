@@ -169,4 +169,39 @@ Please view the complete testing process in this separate document here.
 ## Deploying my project
 I created my project on GitHub and used GitPod's development environment to write my code. Use the following link to view my live project: 
 '''''''
+### Deploying to GitHub Pages
+To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
+1. I opened the 'Settings' section of my project repository in GitHub.
+1. From there, I scrolled to the 'GitHub Pages' section.
+1. Here I selected 'master branch' as my Source.
+1. This deployed my project on GitHub Pages and allowed me to share the live website with others.
+1. More information about this process can be found on the following link:
+https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site! 
 
+### Deploying with Google Maps API
+For this project, I also used a Google Maps API. I integrated this to my website in the following way:
+
+1. I navigated to Gooogle's Getting started with Google Maps Platform, where I set up a new account.
+1. From there I decided to use the 'Maps JavaScript API' and an API key with the provided steps given by google.
+1. Once I had set up my Google Maps feature in my project as described above, I restricted the key's access to only my project's URL to limit its use for no other purposes.
+
+### Deploying with EmailJS
+I used EmailJS to automatically send me an email each time a user submits the Newsletter form. This feature can be implemented as follows:
+
+1. I created an account with EmailJS and navigated to this page
+1. I followed the steps from the tutorial, creating a template and adding the EmailJS javascript library to my project.
+1. I chose to stay with a free account, which limits my monthly quota to 200 emails per month.
+
+# Credits
+## Content
+The content of this website is used from different Swedish websited, which I translated by myself and changed. 
+
+# Images
+The images are from Unsplash and myself. 
+
+# Acknowledgements
+Thank you to the following people who helped with support, inspiration and guidance at different stages in the project:
+
+* The guidance and support of my mentor Seun Owonikoko
+* The supportive Code Institute community, including my fellow students and the tutor support team
+* My friends for their patience and honest critique throughout
