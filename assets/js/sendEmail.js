@@ -18,19 +18,4 @@ function sendMailToCompany(contactForm) {
     );
     return false;
 }
-function sendMailToUser(contactForm) {
-    emailjs.send("gmail", "roadmapsweden", {
-        "from_name": På Vägen,
-        "from_email": nathalie.zauels@gmail.com,
-        "question_request": Thank you for your message. The På Vägen team will get in touch with you shortly.
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;
-}
+       

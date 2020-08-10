@@ -161,6 +161,7 @@ body, html {
     margin: 30px;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    height: auto;
 }
 .contactContent{
     padding: 50px;
@@ -173,14 +174,9 @@ body, html {
 .phoneImageWrapper {
     width: 100%;
     height: auto;
+    padding: 0;
 }
-.phoneImage {
-    background-image: url("../pictures/phone.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-    height: 100%;
-    background-size: contain;
-}
+
 /*---------------------------------------------------------------------Norrland*/
 .youTubeWrapper {
   position: relative;
@@ -242,12 +238,18 @@ div#map {min-height: 360px;}
     color: #49494B;
 }
 .contactBoxWrapper{
-    padding: 100px;
+    padding: 0;
 }
+@include media-breakpoint-up(sm) {
+  .contactBoxWrapper {
+    padding: 100px;
+  }
+}
+
 .contactBox {
     border: solid #49494B 1px;
     box-sizing: content-box;
-    padding: 60px;
+    padding: 30px;
 }
 .contactFormTitle {
     font-family: 'Montserrat', sans-serif;
@@ -258,6 +260,7 @@ div#map {min-height: 360px;}
 .contactButton {
     background-color: #7dce94;
     color: #f9f8fd;
+    margin-top: 5px;
 }
 .form {
     font-family: 'Comfortaa', sans-serif;
@@ -267,26 +270,28 @@ div#map {min-height: 360px;}
 
 /*---------------------------------------------------------------------Footer*/
 .footer {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-end;
-   font-size: 15px;
-   height: 50px;
    background-color: #f6f5f3;
+   padding: 15px 0
 }
 .footerTitle{
     font-family: 'Comfortaa', sans-serif;
 	color: #49494B;
-    font-size: 18px;
+    font-size: 19px;
+    padding-bottom: 5px;
 }
 .footerText{
     font-family: 'Montserrat', sans-serif;
 	color: #49494B;
+    padding-bottom: 5px;
 }
-span {
-    margin-top: auto;
-    margin-bottom: auto;
+.socialIconsFooter i {
+    color: #49494B;
+    padding-bottom: 5px;
+    width: 30px;
+	font-size: 20px;
 }
+
 .socialIconsFooter i:hover {
 	color: #7dce94;
+    padding-bottom: 5px;
 }

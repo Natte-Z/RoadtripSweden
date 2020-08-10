@@ -51,8 +51,7 @@
                                 <a class="nav-link" href="stockholm.html">Stockholm</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span>
-</a>
+                                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                         <div class="socialIconsHeader">
@@ -66,10 +65,7 @@
             </div>
         </div>
     </header>
-<!----------------------------------------------------------------------------------------------------------ContactPage-->
-<section>
-<!--header for contactformular-->
-</section>
+
 <!----------------------------------------------------------------------------------------------------------ContactFormular-->
 
 <section>
@@ -80,18 +76,20 @@
         <div class="container bg-color-contact">
             <p class="contactText uppercase text-center">Any further question or are looking for even more secrets about the Swedish nature? </p>
         </div>
-        <div class="contactBoxWrapper">
+        <div class="row justify-content-md-center">
+        <div class="contactBoxWrapper col-lg-6 ">
             <div class="center-form contactBox">
                 <p>
                     <p class="contactFormTitle">Contact form</p>
                 </p>
-                <form onsubmit="return sendMail(this);" method="POST" class="form">
+                <form onsubmit="return sendMail(this);" method="post" class="form">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="questionsummary" class="form-control" id="questionsummary" placeholder="Question" required></textarea>
                     <button type="submit" class="btn btn-secondary center-block contactButton">Send</button>
                 </form>
             </div>
+        </div>
         </div>
     </div>
 
