@@ -248,7 +248,7 @@ The following tests were made to see that all links responded as they should:
 # Deployment
 ## Deploying my project
 I created my project on GitHub and used GitPod's development environment to write my code. Use the following link to view my live project: 
-'''''''
+https://natte-z.github.io/RoadtripSweden/ ! 
 ### Deploying to GitHub Pages
 To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
 1. I opened the 'Settings' section of my project repository in GitHub.
