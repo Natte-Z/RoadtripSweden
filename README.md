@@ -33,8 +33,8 @@ things the website should include.
 A user that don't want to travel by airplane and thus searches for opportunities closer by. So to use this side there are more than 
 only one travel suggestion and thus users can return again. 
 
-### Tablet Users
-Users, who primarily use an iPad Pro to browse websites. They want to have a good experience on this website and view all the features 
+### Smartphone Users
+Users, who primarily use an Smartphone to browse websites. They want to have a good experience on this website and view all the features 
 in an equally aesthetic way.
 
 ## Design Process
@@ -163,7 +163,87 @@ don't need to have internet access to see the road.
     * This tool helped me test my JavaScript and jQuery code (explained in more detail in the Testing section below).
 
 # Testing
-Please view the complete testing process in this separate document here.
+The testing process is outlined below. It includes:
+
+* Testing User Stories
+* Validating HTML, CSS and JavaScript code
+* Checking website compatibility on different browsers
+* Checking responsiveness of design on different screen sizes
+* Manually testing the functionality of all links
+* Manually testing the contact form
+
+## Testing User Stories
+These following tests were conducted to test the experience of each user outlined earlier.
+
+### Project stakeholders
+The creators of this platform would want a consistent and encouraging design to inspire the users to test new ways of travel. 
+This is achieved through consistent design of a good navigation bar, consistent use of a minimal design colors scheme and 
+inspiring pictures and media.
+
+### New Users
+As this user was fairly new to the concept road travels, they would come to this website to learn more and see what Sweden has to offer. 
+Testing their process of navigation leads to the following journey through the website:
+* Home: Here the user gets a first taste of how the website is divided and wht kind of travels would suit their needs.
+* Norrland: Here they see the first travel round, which is a long travel. They see some images and the google maps to get an understanding 
+of how long this travel would take.
+* Stockholm: also called the site that is for the daily trips and the very new people to road travels. There are three different travel 
+options, which highlight different needs for the user.
+* Contact: here the user can use the contact form to get in contact with the website and to ask for more travel advise. 
+* All in all this user would leave with a positive feeling, because they got a small taste of how road travel in Sweden could look like and
+different options regarding the lenghts of the travel to suit their needs.
+
+### Returning Users
+This user is an experienced road traveler globally and wants to get some new insights about road travels in Sweden. 
+* Home: as before on this site the user gets a fresh taste of the different options that this website will provide
+* Norrland: probably the most interesting site for this user, because it explains and shows different travels that can be combined to one long
+to show and experience the scandinavian nature up close.
+* Stockholn: This can still be of interest, because when coming to Sweden, most people stay at least for some days in its capital. The provided 
+roadtrips underline different nature and landscape and also highlight the archipelagos that are close to Stockholm. 
+* Contact: Here the also the experienced road traveller user can leave comments and maybe even share some photos from their travlels.
+* To sum it up: this user will use this site rather for some inspiration than direct guiding, because they are already motivated about travelling
+by road and are therefore more interested in the inspiration that this site offers in regards to the different locations.
+
+### Smartphone Users
+This user can be a combination of the above mentioned two users. Here it is mostly important that the website is responsive and that the design
+doesnt downgrade the experience of the user. 
+
+## Validating the HTML, CSS and JavaScript code
+### HTML
+My HTML code was passed through the W3C Markup Validation Service. Doing so brought up the errors below that I resolved in the following ways:
+* index.html - 
+* Norrland.html - 
+* stockholm.html - 
+* contact.html - 
+
+### CSS
+I checked my CSS code with the W3C Markup Validation Service. This test did not produce any errors.
+
+## JavaScript
+I used JSHint to check my JavaScript files. This brought up the following errors with the steps I took to correct them:
+
+* All JavaScript files - 
+* maps.js - 
+* arrows.js - 
+
+## Testing compatibility with different browsers
+I manually tested the website on the following web browsers, checking that buttons, responsiveness and design worked as planned:
+* Google Chrome
+* Mozilla Firefox
+* Apple Safari
+
+## Testing the design's responsiveness on several screen sizes
+I manually tested the design of the live project by doing the following:
+
+* Using Google Developer Tools to view the project on devices with different screen sizes.
+* Checking whether the Google Maps feature still worked as planned on smaller devices, without compromising the ability to view the information stored on each marker.
+* Asking for feedback from friends and family who opened and interacted with the project on their devices.
+
+## Manually testing the functionality of all links
+The following tests were made to see that all links responded as they should:
+* Social media links were clicked on to make sure that they open in a new tab at the correct corresponding landing page.
+* All buttons were clicked on to check that they take the user to the correct page.
+* The contact form 'Send' button only accepts the form when it has been completed with all required fields filled in. 
+* The 'Scroll-up' button at the end of each page successfully scrolls the user up to the top of the page.
 
 # Deployment
 ## Deploying my project
