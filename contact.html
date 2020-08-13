@@ -80,9 +80,9 @@
                      <p>
                      <p class="contactFormTitle">Contact form</p>
                      </p>
-                     <form onsubmit="return sendMail(this);" method="post" class="form">
+                     <form onsubmit="return sendMail(this);" class="form">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required/>
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                         <textarea rows="5" name="questionsummary" class="form-control" id="questionsummary" placeholder="Question" required></textarea>
                         <button type="submit" class="btn btn-secondary center-block contactButton">Send</button>
                      </form>
@@ -94,7 +94,7 @@
       <!----------------------------------------------------------------------------------------------------------FOOTER-->
       <footer>
          <div class="container-fluid">
-            <div class="row footer">
+            <div class="row footer mt-auto">
                <div class="footerTitle col-lg-4 col-sm-12">På Vägen</div>
                <div class="socialIconsFooter col-lg-4 col-sm-12">
                   <a href="https://www.facebook.com/swedense" target="_blank"><i class="fab fa-facebook"></i></a>
