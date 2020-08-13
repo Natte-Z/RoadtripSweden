@@ -1,7 +1,9 @@
+// Creating the function for the Email JS function for the contact form
+
 function sendMail(contactForm) {
     sendMailToCompany(contactForm);
-    sendMailToUser(contactForm);
 }
+// creating the function for the send to with the information gathered from the contact form and connected to EMail JS
 function sendMailToCompany(contactForm) {
     emailjs.send("gmail", "roadmapsweden", {
         "from_name": contactForm.name.value,
