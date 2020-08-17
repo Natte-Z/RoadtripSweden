@@ -11,12 +11,10 @@ This was the second of four Milestone Projects that made up the Full Stack Web D
 requirements were to make an interactive and responsive website with HTML5, CSS3 and JavaScript.
 
 # UX
-![Responsive view of homepage](https://github.com/Natte-Z/RoadtripSweden/blob/58ff92b54bf2a2782c3e79e1e9a09e3d25b9ef2b/assets/pictures/responsive.jpg "Responsiveness")
-![Responsive view of homepage][view]
+![Vägen] (https://github.com/Natte-Z/RoadtripSweden/blob/58ff92b54bf2a2782c3e79e1e9a09e3d25b9ef2b/assets/pictures/responsive.png)
 
-[view]: https://github.com/Natte-Z/RoadtripSweden/blob/58ff92b54bf2a2782c3e79e1e9a09e3d25b9ef2b/assets/pictures/responsive.jpg "Logo Title Text 2"
+## Figma Design https://www.figma.com/file/41SRkQCEbVzvx4wuN1DCud/RoadtripSweden?node-id=0%3A1! 
 
-Figma Design https://www.figma.com/file/41SRkQCEbVzvx4wuN1DCud/RoadtripSweden?node-id=0%3A1! 
 ## Users
 Expected users of the website include nature interested viewers that want to plan a holiday without flying anywhere and be more free 
 of where they want to go. The website only provides a small perspective on what road travels in Sweden has to offer, but not all 
