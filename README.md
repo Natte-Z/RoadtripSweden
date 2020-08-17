@@ -11,8 +11,12 @@ This was the second of four Milestone Projects that made up the Full Stack Web D
 requirements were to make an interactive and responsive website with HTML5, CSS3 and JavaScript.
 
 # UX
-![Responsive view of homepage](/pictures/responsive.png)
+![Responsive view of homepage](https://github.com/Natte-Z/RoadtripSweden/blob/58ff92b54bf2a2782c3e79e1e9a09e3d25b9ef2b/assets/pictures/responsive.jpg "Responsiveness")
+![Responsive view of homepage][view]
 
+[view]: https://github.com/Natte-Z/RoadtripSweden/blob/58ff92b54bf2a2782c3e79e1e9a09e3d25b9ef2b/assets/pictures/responsive.jpg "Logo Title Text 2"
+
+Figma Design https://www.figma.com/file/41SRkQCEbVzvx4wuN1DCud/RoadtripSweden?node-id=0%3A1! 
 ## Users
 Expected users of the website include nature interested viewers that want to plan a holiday without flying anywhere and be more free 
 of where they want to go. The website only provides a small perspective on what road travels in Sweden has to offer, but not all 
@@ -73,7 +77,7 @@ in an equally aesthetic way.
     that should represented the forests and nature, but in a more fun way. So I chose a color scheme of four different colors that support
     each other, but does not take too much focus away from the design itself. 
         1. Simpler Lime Green: ![#7dce94]
-        1.  Scuffed Dark Grey: ![#3d3d3f]
+        1. Scuffed Dark Grey: ![#3d3d3f]
         1. Vanilla Grey: ![#f6f5f3]
         1. White-ish: ![#f9f8fd]
     * The colours represent a modern, but not too aggressive colour scheme that goes hand in hand with the pictures chosen for this website.
@@ -210,10 +214,11 @@ doesnt downgrade the experience of the user.
 ## Validating the HTML, CSS and JavaScript code
 ### HTML
 My HTML code was passed through the W3C Markup Validation Service. Doing so brought up the errors below that I resolved in the following ways:
-* index.html - 
-* Norrland.html - 
-* stockholm.html - 
-* contact.html - 
+In general there are some "warnings", because of the way that I commented, but they do not affect the code. 
+* index.html - Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. (I fixed this with my css manually)
+* Norrland.html - Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+* stockholm.html - Element a not allowed as child of element ul in this context. (Suppressing further errors from this subtree.); Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sectiion.
+* contact.html - Element a not allowed as child of element ul in this context.
 
 ### CSS
 I checked my CSS code with the W3C Markup Validation Service. This test did not produce any errors.
@@ -248,7 +253,7 @@ The following tests were made to see that all links responded as they should:
 # Deployment
 ## Deploying my project
 I created my project on GitHub and used GitPod's development environment to write my code. Use the following link to view my live project: 
-https://natte-z.github.io/RoadtripSweden/ ! 
+https://natte-z.github.io/RoadtripSweden/! 
 ### Deploying to GitHub Pages
 To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
 1. I opened the 'Settings' section of my project repository in GitHub.
