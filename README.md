@@ -11,7 +11,7 @@ This was the second of four Milestone Projects that made up the Full Stack Web D
 requirements were to make an interactive and responsive website with HTML5, CSS3 and JavaScript.
 
 # UX
-![Vägen] (https://github.com/Natte-Z/RoadtripSweden/blob/58ff92b54bf2a2782c3e79e1e9a09e3d25b9ef2b/assets/pictures/responsive.png)
+![Vägen](https://github.com/Natte-Z/RoadtripSweden/blob/58ff92b54bf2a2782c3e79e1e9a09e3d25b9ef2b/assets/pictures/responsive.png)
 
 ## Figma Design https://www.figma.com/file/41SRkQCEbVzvx4wuN1DCud/RoadtripSweden?node-id=0%3A1! 
 
